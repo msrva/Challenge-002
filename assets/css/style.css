@@ -1,0 +1,246 @@
+/* This block specifies width, height, margin, and padding properties for all page contents, using a * wildcard*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*This block adds body background color*/
+body {
+    background-color: #29211c;
+}
+
+/*This block creates a header class to dictate padding, font, and colors for header*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #29211c;
+    color: #539e22;
+}
+
+/*This block dictates inline style and font size for h1 heading*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*This block dictates padding, margin, float position, and font for elements within div child classes within header parent*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*This block dictates none as default style for list item marker for items within unordered list child class, within
+div parent class within header parent class*/
+.header div ul {
+    list-style-type: none;
+}
+
+/*This block dictates inline-block display style with a specified left margin for list items within parent ul class,
+within parent div class, within parent header class*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*This block dictates text color and decoration for anchor elements*/
+a {
+    color: #539e22;
+    text-decoration: none;
+}
+
+/*This block dictates font size for paragraph elements*/
+p {
+    font-size: 16px;
+}
+
+/*This block identifies the image source and dictates display attributes for the page's hero element, which isdisplayed 
+below the page's head and above the page's body*/
+.hero {
+    height: 540px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/hero.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/*This block provides display attributes for content we want to float left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*This block provides display attributes for content we want to float right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*This block dicates inline-block display style, sizing, and margin attributes for content within cotent class*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*This block dictates display, font, and background color attributes for right-floated benefits bar content*/
+.bio {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #29211c;
+}
+
+/*The following benefit-... blocks below dictate additional margin, color, dimension and text alignment attributes 
+for content within the right-floated benefits bar*/
+.bio-past {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.bio-present {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.bio-future {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.bio-past h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.bio-present h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.bio-future h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.bio-past img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.bio-present img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.bio-future img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*The blocks below, until above next comment, dictate margin, padding, dimension, font, and color attributes for content in main body.
+Could these unique classes be consolidated into a single class? They are identical besides class name*/
+.project01 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #29211c;
+    color: #539e22;
+}
+
+.project02 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #29211c;
+    color: #539e22;
+}
+
+.project03 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #29211c;
+    color: #539e22;
+}
+
+.project04 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #29211c;
+    color: #539e22;
+}
+
+.project05 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #29211c;
+    color: #539e22;
+}
+
+/*The blocks below ending in img dictate display dimensions for image content*/
+.bio-past img {
+    max-height: 160px;
+    border-radius: 15px;
+}
+
+.bio-present img {
+    max-height: 160px;
+    border-radius: 15px;
+}
+
+.bio-future img {
+    max-height: 160px;
+    border-radius: 15px;
+}
+
+/*The blocks below ending in h2 dictate margina dn font size for image h2 content in body*/
+.bio-past h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.bio-present h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.bio-future h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*The blocks below dictate padding, font, and alignment attributes for our footer content*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #539e22;
+}
+
+.footer h2 {
+    font-size: 20px;
+    color: #539e22;
+}
